@@ -27,9 +27,12 @@
                             <a class="header__nav--link" href="/attendance">日付一覧</a>
                         </li>
                         <li class="header__nav--item">
-                            <form action="/logout" mrthod="POST">
+                            <a class="header__nav--link" href="/user">ユーザー一覧</a>
+                        </li>
+                        <li class="header__nav--item">
+                            <form action="/logout" method="POST">
                                 @csrf
-                                <input class="header__nav--button" type="submit" value="ログアウト">
+                                <button class="header__nav--button" type="submit">ログアウト</button>
                             </form>
                         </li>
                     @endif

@@ -1,0 +1,30 @@
+.user__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-left: 0;
+    width: 1200px;
+    height: 450px;
+    a {
+        text-decoration: none;
+        display: block;
+        color: #000;
+    }
+}
+
+.user__list--item {
+    list-style: none;
+    background-color: #fff;
+    width: 220px;
+    height: 50px;
+    margin: 20px 10px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.user__list--item:hover {
+    background-color: #e9ecef;
+    border-radius: 5px;
+}

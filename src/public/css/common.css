@@ -28,7 +28,7 @@ body {
 }
 
 .header__nav {
-    width: 30%;
+    width: 40%;
     display: flex;
     justify-content: space-around;
     list-style: none;
@@ -59,4 +59,14 @@ body {
 .footer__logo {
     text-align: center;
     font-weight: bold;
+}
+
+.main__content {
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+.main__content--title {
+    text-align: center;
+    margin: 50px;
 }

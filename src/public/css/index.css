@@ -1,0 +1,15 @@
+.form__attendance,
+.form__break {
+    text-align: center;
+}
+
+.form__button-submit {
+    width: 40%;
+    height: 200px;
+    margin: 20px;
+    border: none;
+    background: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 5px;
+}
