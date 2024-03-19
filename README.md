@@ -1,7 +1,7 @@
 # 勤怠管理システム
 ## 環境構築
 ### Dockerビルド
-1. git clone git@github.com:HayatoOhki/ability-test.git
+1. git clone git@github.com:HayatoOhki/atte.git
 2. docker-compose up -d --build  
 ※MySQLは、OSによって起動しない場合があるのでそれぞれのPCに合わせて docker-compose.yml ファイルを編集してください。
 ### Laravel環境構築
@@ -16,7 +16,10 @@
 ・Laravel 8.83  
 ・MySQL 8.0
 ## ER図
-![index drawio](https://github.com/HayatoOhki/ability-test/assets/157372211/39002491-dbca-4003-85fb-94a2e3152b5f)
+![index drawio](https://github.com/HayatoOhki/atte/assets/157372211/ac907bae-5bcc-43fc-81a4-b67540b88ac7)
 ## URL
 ・開発環境：http://localhost/  
 ・phpMyAdmin：http://localhost:8080/
+## テストユーザー
+・メールアドレス：test001@example.com
+・パスワード：password001
