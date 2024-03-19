@@ -21,5 +21,5 @@
 ・開発環境：http://localhost/  
 ・phpMyAdmin：http://localhost:8080/
 ## テストユーザー
-・メールアドレス：test001@example.com 
+・メールアドレス：test001@example.com  
 ・パスワード：password001
